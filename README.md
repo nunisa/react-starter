@@ -1,4 +1,4 @@
-# webpack-starter #
+# react-starter #
 A production ready react boilerplate.
 
 ### Usage ###
