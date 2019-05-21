@@ -1,5 +1,5 @@
 # webpack-starter #
-A production ready webpack 4 configurations from scratch.
+A production ready react boilerplate.
 
 ### Usage ###
-    git clone https://github.com/nunisa/webpack-starter.git
+    git clone https://github.com/nunisa/react-starter.git
