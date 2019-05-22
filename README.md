@@ -1,8 +1,23 @@
 # react-starter #
 A production ready react boilerplate.
 
-### Usage ###
+### Get it ###
 `git clone https://github.com/nunisa/react-starter.git`
+
+### Usage ###
+After cloning the repo, do the following
+1. Install dependencies
+
+    `npm i`
+2. Run development server
+
+    `npm start`
+3. Run production build
+
+    `npm run build`
+4. Run test script
+
+    `npm test`
 
 ### Issues ###
 For any issue, raise it in [issue tracker](https://github.com/nunisa/react-starter/issues).
