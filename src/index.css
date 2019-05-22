@@ -14,7 +14,7 @@
 }
 
 #root {
-    background-color: #001991;
+    background-color: #1991ff;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -23,26 +23,4 @@
     height: 100vh;
     font-size: 5rem;
     font-weight: bold;
-}
-
-img {
-    animation: jump-img 1s linear 1s infinite alternate;
-}
-
-.text {
-    font-family: monospace;
-}
-
-@keyframes jump-img {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-1rem);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
 }

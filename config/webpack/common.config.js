@@ -28,7 +28,7 @@ module.exports.common = {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.jsx?$/,
                 use: [
                     {
                         loader: 'babel-loader',
@@ -44,7 +44,8 @@ module.exports.common = {
                                             proposals: true
                                         }
                                     }
-                                ]
+                                ],
+                                '@babel/preset-react'
                             ]
                         }
                     },
