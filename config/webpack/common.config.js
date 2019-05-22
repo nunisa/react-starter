@@ -105,7 +105,7 @@ module.exports.common = {
             template: HTML_TEMPLATE,
             filename: 'index.html',
             favicon: FAVICON_PATH,
-            title: 'Webpack 4 Starter'
+            title: 'React Starter | Boilerplate'
         }),
         new MiniCssExtractPlugin({
             filename: 'css/[name].[chunkhash:8].css',

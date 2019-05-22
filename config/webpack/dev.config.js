@@ -22,7 +22,7 @@ module.exports = merge.smart(common, {
         hot: true,
         index: 'index.html',
         inline: true,
-        // open: true,
+        open: true,
         host: '0.0.0.0',
         public: `localhost:${PORT}`,
         port: PORT
