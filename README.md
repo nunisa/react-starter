@@ -15,7 +15,7 @@ After cloning the repo, do the following
 3. Run production build
 
     `npm run build`
-4. Run test script
+4. Run jest tests
 
     `npm test`
 
