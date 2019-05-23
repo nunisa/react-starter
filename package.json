@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack/dev.config.js --colors --progress",
     "build": "npm run clean && cross-env NODE_ENV=production webpack --config config/webpack/prod.config.js --colors --progress",
     "clean": "rimraf dist",
-    "test": "jest --no-cache"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -107,7 +107,7 @@
       "(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
     "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+      "node_modules/(?!(babel-jest)/)"
     ],
     "verbose": true
   }

@@ -6,7 +6,7 @@ let wrapper;
 
 describe('App component', () => {
     beforeEach(() => {
-        wrapper = shallow(<App />);
+        wrapper = shallow(<App text="React Starter" />);
     });
 
     it('should be defined', () => {
