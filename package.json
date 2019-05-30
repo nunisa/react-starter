@@ -72,35 +72,20 @@
     "rimraf": "^2.6.3"
   },
   "jest": {
+    "verbose": true,
     "clearMocks": true,
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,mjs}"
-    ],
-    "moduleDirectories": [
-      "node_modules",
-      "src"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "jsx"
+      "src/**/*.{js,jsx}"
     ],
     "moduleNameMapper": {
       "^@/(.*)$": "<rootDir>/src/$1"
     },
     "setupFiles": [
-      "<rootDir>/config/jest/polyfill.js",
+      "<rootDir>/config/jest/polyfill.js"
+    ],
+    "setupFilesAfterEnv": [
       "<rootDir>/config/jest/enzyme.config.js"
     ],
-    "testEnvironment": "jsdom",
-    "testMatch": [
-      "**/__tests__/**/*.js?(x)",
-      "**/?(*.)+(spec|test).js?(x)"
-    ],
-    "testPathIgnorePatterns": [
-      "\\\\node_modules\\\\"
-    ],
-    "testURL": "http://localhost/",
     "transform": {
       "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.(le|sa|sc|c)ss$": "<rootDir>/config/jest/cssTransform.js",
@@ -108,7 +93,6 @@
     },
     "transformIgnorePatterns": [
       "node_modules/(?!(babel-jest)/)"
-    ],
-    "verbose": true
+    ]
   }
 }
